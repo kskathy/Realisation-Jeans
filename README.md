@@ -1,5 +1,5 @@
 # Realisation-Jeans
-# A Tactical Media Site Experience and Interaction Project
+# A Tactical Media Site Experience and Interaction Course Project
 The subject matter is mutual concession and compromise, and to explore this concept, I
 created a website called Réalisation Jeans that fosters a new experience around an age-old proverb: you get what you give. 
 Described as “the positive correlation between the effort one puts in and the benefits one receives” by Definitions.com, 
