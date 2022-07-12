@@ -19,3 +19,5 @@ as we do not see the direct impact they have on us. For example, we are not the 
 our parents maintain those luxuries—but once they are gone, we will undeniably suffer in their absence. 
 This project shows our audience that while it is natural to ignore problems until we are the ones being affected by them, this ignorance can easily be transformed into appreciation. 
 The challenge, then, is to see beyond what has become overfamiliar and acknowledge the efforts that keep our world running.
+
+![Screen Shot 2022-07-12 at 6 38 45 PM](https://user-images.githubusercontent.com/53270507/178610404-5506a37f-4421-444f-b1fd-922c1c756b12.png)
