@@ -1,4 +1,3 @@
-# Realisation-Jeans
 # A Tactical Media Site Experience and Interaction Course Project
 The subject matter is mutual concession and compromise, and to explore this concept, I
 created a website called Réalisation Jeans that fosters a new experience around an age-old proverb: you get what you give. 
