@@ -15,25 +15,25 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 </style>
 
 
-<body class="w3-content" style="max-width:1200px;background-color:#242424; cursor:default">
+<body class="w3-content" style="max-width:1200px;background-color:#bebebe; cursor:default">
 
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-bar-block w3-collapse w3-top" style="z-index:-1;width:250px;background-color:#242424" id="mySidebar">
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-top" style="z-index:-1;width:250px;background-color:#bebebe" id="mySidebar">
   <div class="w3-container w3-display-container w3-padding-16">
     <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
     <h3 class="w3-wide"><b>Réalisation Jeans</b></h3>
   </div>
-  <div class="w3-padding-64 w3-large w3-text-black" style="font-weight:bold">
+  <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
     <a href="#" class="w3-bar-item w3-button">Shirts</a>
     <a href="#" class="w3-bar-item w3-button">Dresses</a>
-    <a onclick="myAccFunc()" href="javascript:void(0)" class="w3-button w3-block w3-left-align" style="background-color:#242424" id="myBtn">
+    <a onclick="myAccFunc()" href="javascript:void(0)" class="w3-button w3-block w3-left-align" style="background-color:#bebebe" id="myBtn">
       Jeans <i class="fa fa-caret-down"></i>
     </a>
     <div id="demoAcc" class="w3-bar-block w3-hide w3-padding-large w3-medium">
-      <a href="#" class="w3-bar-item w3-button w3-text-black"  style="background-color:#1f1f1f"><i class="fa fa-caret-right w3-margin-right"></i>Skinny</a>
-      <a href="#" class="w3-bar-item w3-button">Relaxed</a>
-      <a href="#" class="w3-bar-item w3-button">Bootcut</a>
-      <a href="#" class="w3-bar-item w3-button">Straight</a>
+      <a href="#" class="w3-bar-item w3-button">Skinny</a>
+      <a href="#" class="w3-bar-item w3-button">Boyfriend</a>
+      <a href="#" class="w3-bar-item w3-button">Wide Leg</a>
+      <a href="#" class="w3-bar-item w3-button">Print</a>
     </div>
     <a href="#" class="w3-bar-item w3-button">Jackets</a>
     <a href="#" class="w3-bar-item w3-button">Gymwear</a>
@@ -71,8 +71,8 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 
 
   <!-- Image header -->
-  <div class="w3-display-container w3-container w3-opacity-max" style="filter: brightness(45%)">
-    <img src="https://i.pinimg.com/originals/61/95/64/6195642e252727a7f5a71fc1aae84622.jpg" alt="Jeans" style="width:100%">
+  <div class="w3-display-container w3-container" style="filter: brightness(85%)">
+    <img src="./Images/main-jeans-image.jpeg" alt="Jeans" style="width:100%">
     <div class="w3-display-topright w3-text-white" style="padding:24px 48px">
       <h1 class="w3-jumbo w3-hide-small">New arrivals</h1>
       <h1 class="w3-hide-large w3-hide-medium">New arrivals</h1>
@@ -93,20 +93,21 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
      <div id="popup1" class="overlay">
 <div class="thankyou">
  <h2>Yay</h2>
- <a class="close" href="donate3.html">&times;</a>
+ <a class="close" href="index2.html">&times;</a>
  <div class="content">
    Thank you for your donation!
  </div>
 </div>
  </div>
-     <a href="donate5.html"><button style="float: right; margin: 10px">X</button></a>
+     <a href="page3.html"><button style="float: right; margin: 10px">X</button></a>
  </div>
 
 </div>
 
-    
+
+  
     <!-- Product grid -->
-    <div class="w3-row w3-opacity-max" style="filter: brightness(50%)">
+    <div class="w3-row" style="filter: brightness(85%)">
       <div class="w3-col l3 s6">
         <div class="w3-container">
           <img src="./Images/jeans-image1.jpeg" style="width:100%">
@@ -158,52 +159,52 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
       </div>
     </div>
 
-    <!-- Footer -->
-    <footer class="w3-padding-64 w3-small w3-center" id="footer" style="background-color:#1f1f1f">
-      <div class="w3-row-padding">
-        <div class="w3-col s4">
-          <h4 class="w3-text-black">Contact</h4>
-          <p class="w3-text-black">Questions? Go ahead.</p>
-          <form action="/action_page.php" target="_blank">
-            <p class="w3-text-black"><input class="w3-input w3-border w3-black w3-border-black" type="text" placeholder="Name" name="Name" required></p>
-            <p class="w3-text-black"><input class="w3-input w3-border w3-black w3-border-black" type="text" placeholder="Email" name="Email" required></p>
-            <p class="w3-text-black"><input class="w3-input w3-border w3-black w3-border-black" type="text" placeholder="Subject" name="Subject" required></p>
-            <p class="w3-text-black"><input class="w3-input w3-border w3-black w3-border-black" type="text" placeholder="Message" name="Message" required></p>
-            <button type="submit" class="w3-button w3-block w3-black w3-text-grey">Send</button>
-          </form>
-        </div>
-
-        <div class="w3-col s4">
-          <h4 class="w3-text-black">About</h4>
-          <p class="w3-text-black"><a href="#">About us</a></p>
-          <p class="w3-text-black"><a href="#">We're hiring</a></p>
-          <p class="w3-text-black"><a href="#">Support</a></p>
-          <p class="w3-text-black"><a href="#">Find store</a></p>
-          <p class="w3-text-black"><a href="#">Shipment</a></p>
-          <p class="w3-text-black"><a href="#">Payment</a></p>
-          <p class="w3-text-black"><a href="#">Gift card</a></p>
-          <p class="w3-text-black"><a href="#">Return</a></p>
-          <p class="w3-text-black"><a href="#">Help</a></p>
-        </div>
-
-        <div class="w3-col s4 w3-justify">
-          <h4 class="w3-text-black">Store</h4>
-          <p class="w3-text-black"><i class="fa fa-fw fa-map-marker"></i> Réalisation Jeans</p>
-          <p class="w3-text-black"><i class="fa fa-fw fa-phone"></i> 0044123123</p>
-          <p class="w3-text-black"><i class="fa fa-fw fa-envelope"></i> RéalisationJeans@mail.com</p>
-          <h4 class="w3-text-black">We accept</h4>
-          <p class="w3-text-black"><i class="fa fa-fw fa-cc-amex"></i> Amex</p>
-          <p class="w3-text-black"><i class="fa fa-fw fa-credit-card"></i> Credit Card</p>
-          <br>
-          <i class="fa fa-facebook-official w3-hover-opacity w3-large w3-text-black"></i>
-          <i class="fa fa-instagram w3-hover-opacity w3-large w3-text-black"></i>
-          <i class="fa fa-snapchat w3-hover-opacity w3-large w3-text-black"></i>
-          <i class="fa fa-pinterest-p w3-hover-opacity w3-large w3-text-black"></i>
-          <i class="fa fa-twitter w3-hover-opacity w3-large w3-text-black"></i>
-          <i class="fa fa-linkedin w3-hover-opacity w3-large w3-text-black"></i>
-        </div>
+  <!-- Footer -->
+  <footer class="w3-padding-64 w3-grey w3-small w3-center" id="footer">
+    <div class="w3-row-padding">
+      <div class="w3-col s4">
+        <h4>Contact</h4>
+        <p>Questions? Go ahead.</p>
+        <form action="/action_page.php" target="_blank">
+          <p><input class="w3-input w3-border" style="background-color: #c6c6c6;" type="text" placeholder="Name" name="Name" required></p>
+          <p><input class="w3-input w3-border" style="background-color: #c6c6c6;" type="text" placeholder="Email" name="Email" required></p>
+          <p><input class="w3-input w3-border" style="background-color: #c6c6c6;" type="text" placeholder="Subject" name="Subject" required></p>
+          <p><input class="w3-input w3-border" style="background-color: #c6c6c6;" type="text" placeholder="Message" name="Message" required></p>
+          <button type="submit" class="w3-button w3-block w3-black">Send</button>
+        </form>
       </div>
-    </footer>
+
+      <div class="w3-col s4">
+        <h4>About</h4>
+        <p><a href="#">About us</a></p>
+        <p><a href="#">We're hiring</a></p>
+        <p><a href="#">Support</a></p>
+        <p><a href="#">Find store</a></p>
+        <p><a href="#">Shipment</a></p>
+        <p><a href="#">Payment</a></p>
+        <p><a href="#">Gift card</a></p>
+        <p><a href="#">Return</a></p>
+        <p><a href="#">Help</a></p>
+      </div>
+
+      <div class="w3-col s4 w3-justify">
+        <h4>Store</h4>
+        <p><i class="fa fa-fw fa-map-marker"></i> Réalisation Jeans</p>
+        <p><i class="fa fa-fw fa-phone"></i> 0044123123</p>
+        <p><i class="fa fa-fw fa-envelope"></i> RéalisationJeans@mail.com</p>
+        <h4>We accept</h4>
+        <p><i class="fa fa-fw fa-cc-amex"></i> Amex</p>
+        <p><i class="fa fa-fw fa-credit-card"></i> Credit Card</p>
+        <br>
+        <i class="fa fa-facebook-official w3-hover-opacity w3-large"></i>
+        <i class="fa fa-instagram w3-hover-opacity w3-large"></i>
+        <i class="fa fa-snapchat w3-hover-opacity w3-large"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity w3-large"></i>
+        <i class="fa fa-twitter w3-hover-opacity w3-large"></i>
+        <i class="fa fa-linkedin w3-hover-opacity w3-large"></i>
+      </div>
+    </div>
+  </footer>
 
     <div class="w3-black w3-center w3-padding-24"></div>
 

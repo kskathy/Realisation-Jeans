@@ -15,10 +15,10 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 </style>
 
 
-<body class="w3-content" style="max-width:1200px;background-color:#bebebe; cursor:default">
+<body class="w3-content" style="max-width:1200px">
 
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-bar-block w3-collapse w3-top" style="z-index:-1;width:250px;background-color:#bebebe" id="mySidebar">
+<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:-1;width:250px" id="mySidebar">
   <div class="w3-container w3-display-container w3-padding-16">
     <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
     <h3 class="w3-wide"><b>Réalisation Jeans</b></h3>
@@ -26,15 +26,15 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
   <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
     <a href="#" class="w3-bar-item w3-button">Shirts</a>
     <a href="#" class="w3-bar-item w3-button">Dresses</a>
-    <a onclick="myAccFunc()" href="javascript:void(0)" class="w3-button w3-block w3-left-align" style="background-color:#bebebe" id="myBtn">
+    <a onclick="myAccFunc()" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align" id="myBtn">
       Jeans <i class="fa fa-caret-down"></i>
     </a>
     <div id="demoAcc" class="w3-bar-block w3-hide w3-padding-large w3-medium">
-      <a href="#" class="w3-bar-item w3-button w3-gray"><i class="fa fa-caret-right w3-margin-right"></i>Skinny</a>
-      <a href="#" class="w3-bar-item w3-button">Relaxed</a>
-      <a href="#" class="w3-bar-item w3-button">Bootcut</a>
-      <a href="#" class="w3-bar-item w3-button">Straight</a>
-    </div>
+        <a href="#" class="w3-bar-item w3-button">Skinny</a>
+        <a href="#" class="w3-bar-item w3-button">Boyfriend</a>
+        <a href="#" class="w3-bar-item w3-button">Wide Leg</a>
+        <a href="#" class="w3-bar-item w3-button">Print</a>
+      </div>
     <a href="#" class="w3-bar-item w3-button">Jackets</a>
     <a href="#" class="w3-bar-item w3-button">Gymwear</a>
     <a href="#" class="w3-bar-item w3-button">Blazers</a>
@@ -71,7 +71,7 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 
 
   <!-- Image header -->
-  <div class="w3-display-container w3-container" style="filter: brightness(85%)">
+  <div class="w3-display-container w3-container">
     <img src="./Images/main-jeans-image.jpeg" alt="Jeans" style="width:100%">
     <div class="w3-display-topright w3-text-white" style="padding:24px 48px">
       <h1 class="w3-jumbo w3-hide-small">New arrivals</h1>
@@ -85,29 +85,9 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
     <p>8 items</p>
   </div>
 
-  <!-- Popup -->
-  <div class="POPmain"
-  style="display: none">
- <div id="popup">
-     <a class="button" href="#popup1">Donate</a>
-     <div id="popup1" class="overlay">
-<div class="thankyou">
- <h2>Yay</h2>
- <a class="close" href="index.html">&times;</a>
- <div class="content">
-   Thank you for your donation!
- </div>
-</div>
- </div>
-     <a href="donate3.html"><button style="float: right; margin: 10px">X</button></a>
- </div>
 
-</div>
-
-
-  
     <!-- Product grid -->
-    <div class="w3-row" style="filter: brightness(85%)">
+    <div class="w3-row">
       <div class="w3-col l3 s6">
         <div class="w3-container">
           <img src="./Images/jeans-image1.jpeg" style="width:100%">
@@ -160,16 +140,16 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
     </div>
 
   <!-- Footer -->
-  <footer class="w3-padding-64 w3-grey w3-small w3-center" id="footer">
+  <footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
     <div class="w3-row-padding">
       <div class="w3-col s4">
         <h4>Contact</h4>
         <p>Questions? Go ahead.</p>
         <form action="/action_page.php" target="_blank">
-          <p><input class="w3-input w3-border" style="background-color: #c6c6c6;" type="text" placeholder="Name" name="Name" required></p>
-          <p><input class="w3-input w3-border" style="background-color: #c6c6c6;" type="text" placeholder="Email" name="Email" required></p>
-          <p><input class="w3-input w3-border" style="background-color: #c6c6c6;" type="text" placeholder="Subject" name="Subject" required></p>
-          <p><input class="w3-input w3-border" style="background-color: #c6c6c6;" type="text" placeholder="Message" name="Message" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Name" name="Name" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Email" name="Email" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Subject" name="Subject" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Message" name="Message" required></p>
           <button type="submit" class="w3-button w3-block w3-black">Send</button>
         </form>
       </div>
@@ -206,7 +186,7 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
     </div>
   </footer>
 
-    <div class="w3-black w3-center w3-padding-24"></div>
+  <div class="w3-black w3-center w3-padding-24"></div>
 
   <!-- End page content -->
 </div>
@@ -267,19 +247,6 @@ function w3_close() {
   document.getElementById("mySidebar").style.display = "none";
   document.getElementById("myOverlay").style.display = "none";
 }
-
-// When doument is ready
-$(document).ready(function () {
-    // SetTimeout function
-    // Will execute the function
-    // after 3 sec
-    setTimeout(function () {
-        $(".POPmain").css("display", "block");
-    }, 5000);
-});
-$(".submitId").click(function () {
-    $(".POPmain").css("display", "none");
-});
 
 </script>
 
