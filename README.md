@@ -20,5 +20,3 @@ our parents maintain those luxuries—but once they are gone, we will undeniably
 This project shows our audience that while it is natural to ignore problems until we are the ones being affected by them, this ignorance can easily be transformed into appreciation. 
 The challenge, then, is to see beyond what has become overfamiliar and acknowledge the efforts that keep our world running.
 
-
-![RealisationJeansScreenshot](https://user-images.githubusercontent.com/53270507/178610624-8e926d44-98ff-480b-8e7c-e21efb28512e.png)

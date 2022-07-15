@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="donatecss.css">
+<link rel="stylesheet" href="donatecss2.css">
 
 <style>
 .w3-sidebar a {font-family: "Roboto", sans-serif}
@@ -15,7 +15,7 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 </style>
 
 
-<body class="w3-content" style="max-width:1200px;background-color:#242424">
+<body class="w3-content" style="max-width:1200px;background-color:#242424; cursor:default">
 
 <!-- Sidebar/menu -->
 <nav class="w3-sidebar w3-bar-block w3-collapse w3-top" style="z-index:-1;width:250px;background-color:#242424" id="mySidebar">
@@ -86,13 +86,23 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
   </div>
 
   <!-- Popup -->
-    <div class="POPmain"
-         style="display: none">
-        <div id="popup">
-            <a href="donate3.html"><button class= "submitId btn btn-primary font-weight-bold mt-5">Donate</button></a>
-            <a href="donate5.html"><button class="noId btn btn-primary font-weight-bold mt-5">X</button></a>
-        </div>
-    </div>
+  <div class="POPmain"
+  style="display: none">
+ <div id="popup">
+     <a class="button" href="#popup1">Donate</a>
+     <div id="popup1" class="overlay">
+<div class="thankyou">
+ <h2>Yay</h2>
+ <a class="close" href="donate3.html">&times;</a>
+ <div class="content">
+   Thank you for your donation!
+ </div>
+</div>
+ </div>
+     <a href="donate5.html"><button style="float: right; margin: 10px">X</button></a>
+ </div>
+
+</div>
 
     
     <!-- Product grid -->
